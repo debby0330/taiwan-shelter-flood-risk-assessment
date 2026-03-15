@@ -27,7 +27,7 @@ hw3/
 ├── .gitignore                    # Git 忽略清單
 ├── output/                       # 分析輸出目錄
 │   ├── shelter_risk_audit.json   # 避難所風險清單
-│   ├── top10_risk_chart.png      # Top 10 風險行政區統計圖
+│   ├── risk_map.png      # Top 10 風險行政區統計圖
 │   └── risk_map.html             # 互動式風險地圖
 └── data/                         # 資料目錄 (不上傳 GitHub)
     ├── riverpoly/                 # 水利署河川圖資
