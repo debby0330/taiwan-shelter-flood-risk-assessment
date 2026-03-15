@@ -26,19 +26,6 @@ wheels/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# Data files (optional - uncomment if you want to exclude data)
-# data/
-# *.csv
-# *.shp
-# *.dbf
-# *.shx
-# *.prj
-
-# Output files
-*.png
-*.json
-*.txt
-
 # IDE
 .vscode/
 .idea/
