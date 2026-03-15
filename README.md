@@ -22,14 +22,18 @@
 ### 🗂️ 檔案結構
 ```
 hw3/
-├── ARIA.ipynb              # 完整分析 Notebook（含 Markdown 說明）
-├── shelter_risk_audit.json # 避難所風險清單（含 shelter_id、name、risk_level、capacity）
-├── risk_map.png            # 靜態風險地圖或統計圖
-├── README.md               # 本檔案（包含 AI 診斷日誌）
-└── data/                   # 資料目錄
-    ├── riverpoly/          # 水利署河川圖資
+├── ARIA.ipynb                    # 完整分析 Notebook (含 Markdown 說明)
+├── README.md                     # 專案說明 (含 AI 診斷日誌)
+├── .gitignore                    # Git 忽略清單
+├── output/                       # 分析輸出目錄
+│   ├── shelter_risk_audit.json   # 避難所風險清單
+│   ├── top10_risk_chart.png      # Top 10 風險行政區統計圖
+│   └── risk_map.html             # 互動式風險地圖
+└── data/                         # 資料目錄 (不上傳 GitHub)
+    ├── riverpoly/                 # 水利署河川圖資
     ├── 避難收容處所點位檔案v9 (1).csv  # 消防署避難所資料
     └── 鄉(鎮、市、區)界線1140318/      # TGOS 鄉鎮區界線
+
 ```
 
 ---
